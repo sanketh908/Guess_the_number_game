@@ -30,7 +30,7 @@ public class HOME_SCREEN extends AppCompatActivity {
         e.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                System.exit(0);
+                finishAffinity();
             }
         });
 
