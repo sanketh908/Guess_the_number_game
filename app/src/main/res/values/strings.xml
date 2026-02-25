@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Guess the number</string>
+    <string name="the_currect_number">zzzz</string>
+</resources>

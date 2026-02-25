@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="342dp"
+        android:layout_height="43dp"
+        android:text="Select the game mode"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#f021"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <Button
+        android:id="@+id/easymode"
+        android:layout_width="147dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="playgame"
+        android:text="Easy Mode "
+        app:layout_constraintBottom_toTopOf="@+id/midmode"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/midmode"
+        android:layout_width="147dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="playgame"
+        android:text="Medium Mode"
+        app:layout_constraintBottom_toTopOf="@+id/hardmode"
+        app:layout_constraintEnd_toEndOf="@+id/easymode"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="@+id/easymode" />
+
+    <Button
+        android:id="@+id/hardmode"
+        android:layout_width="147dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="playgame"
+        android:text="Hard mode"
+        app:layout_constraintBottom_toTopOf="@+id/cr"
+        app:layout_constraintEnd_toEndOf="@+id/midmode"
+        app:layout_constraintStart_toStartOf="@+id/midmode" />
+
+    <Button
+        android:id="@+id/cr"
+        android:layout_width="146dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="280dp"
+        android:onClick="playgame"
+        android:text="Custome Round "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/hardmode"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/hardmode" />
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="2dp"
+        android:layout_height="5dp"
+        android:layout_marginBottom="16dp"
+        android:background="#f00"
+        android:text="EXIT "
+        android:textColor="#fff"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/cr"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/cr" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/cr"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/cr"
+        app:layout_constraintTop_toBottomOf="@+id/cr"
+        app:layout_constraintVertical_bias="0.557" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
