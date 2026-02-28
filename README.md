@@ -3,6 +3,8 @@ This is a simple number guessing game developed in Android Studio. The game gene
 <hr>
 <h2>Screeshots</h2><img width="300" height="670" alt="image" src="https://github.com/user-attachments/assets/fc69a5a9-5aa9-4aaa-9a49-8b80d13e2636" />
 <img width="300" height="670" alt="image" src="https://github.com/user-attachments/assets/d969b446-55a7-4661-be90-71de4a728099" />
+<img width="300" height="670" alt="image" src="https://github.com/user-attachments/assets/13742ab0-383f-4ce4-918c-d9294dcbc20c" />
+
 
 
 
