@@ -4,4 +4,6 @@ This is a simple number guessing game developed in Android Studio. The game gene
 <h2>Screeshots</h2>
 <img width="1319" height="1280" alt="image" src="https://github.com/user-attachments/assets/4da8994c-904e-4e7f-b7a8-4845e21cc024" />
 <img width="1319" height="1280" alt="image" src="https://github.com/user-attachments/assets/f7c8a4f7-8c00-4f6d-97dd-c46a056bb50c" />
+<img width="300" height="670" alt="image" src="https://github.com/user-attachments/assets/82f58f84-3b27-49d5-a5d7-fb37618add42" />
+
 
