@@ -5,6 +5,8 @@ This is a simple number guessing game developed in Android Studio. The game gene
 <img width="300" height="670" alt="image" src="https://github.com/user-attachments/assets/d969b446-55a7-4661-be90-71de4a728099" />
 <img width="300" height="670" alt="image" src="https://github.com/user-attachments/assets/68ea5343-3fb0-4fe6-a42c-fffc867d8e38" />
 <img width="300" height="670" alt="image" src="https://github.com/user-attachments/assets/0d8dd9bf-094c-4bce-b5b3-46089099541e" />
+<img width="300" height="670" alt="image" src="https://github.com/user-attachments/assets/14aecc6c-cf5e-4602-8eeb-1844ab019d60" />
+
 
 
 
